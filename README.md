@@ -1,6 +1,9 @@
 # Fabulous-Five
 
-SNAKE GAME IDEA
+TRAINSYLVANIA 
+                - xx You hit you Die xx
 
-The game is a mutliplayer 2D game that involves controlling a single circle block (snake head). Players should move the block in only 90 degrees by turing left or right and try to eat the apple (red block). As the players continue to eat an apple, the snake grows in length by one block. The player that eats the maximum number of apples (has the longest snake) wins the level.this
-The players arent suppose to meet eachother 
+The game is a mutliplayer 2D game that involves controlling a single train compartment (block). Players should move the block in only 90 degrees by turing left or right and try to collect the coal (black block). As the players continue to collect coal, the number of compartments increases by one. The player that collect the maximum number of coal has the longest train and wins the level. The game also invloves, the players not hitting the opponents train. If this happens, the players lose. The last player standing, wins the game.
+
+- Horror background
+- Spiders
