@@ -7,3 +7,4 @@ The game is a mutliplayer 2D game that involves controlling a single train compa
 
 - Horror background
 - Spiders
+- Instructions of game 
