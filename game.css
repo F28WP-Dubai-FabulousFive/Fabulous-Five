@@ -5,7 +5,7 @@ body {
 
 /*------------------Webpage Title---------------------------*/
 #myh1 {
-    font-size: 120px;
+    font-size: 160px;
     font-family: gigi;
     color: crimson;
     text-align: center;
@@ -16,51 +16,58 @@ body {
 .menu
 { 
      text-align: center;
+     text-indent: 20px;
 }
 
 /*------------------Group members - Profile---------------*/
 .profile 
 {
     font-size: 70px;
-    font-family: chiller;
+    font-family: gigi;
     color: red;
-    border-style:dashed;
+    border-style: double solid;
+    border-color: white;
 }
 
 /*------------------Game aim - Overview-------------------*/
 .aim
 {
     font-size: 70px;
-    font-family: chiller;
+    font-family: gigi;
     color: red;
-    border-style:dashed;
+    border-style: double solid;
+    border-color: white;
+    
 }
 
 /*------------------Terms and Conditions------------------*/
 .tac
 {
     font-size: 70px;
-    font-family: chiller;
+    font-family: gigi;
     color: red;
-    border-style:dashed;
+    border-style: double solid;
+    border-color: white;
 }
 
 /*------------------Game Instructions---------------------*/
 .inst
 {
     font-size: 70px;
-    font-family: chiller;
+    font-family: gigi;
     color: red;
-    border-style:dashed;  
+    border-style: double solid;
+    border-color: white;
 }
 
 /*------------------Game High Scores----------------------*/
 .score 
 {
     font-size: 70px;
-    font-family: chiller;
+    font-family: gigi;
     color: red;
-    border-style:dashed;
+    border-style: double solid;
+    border-color: white;
 }
 
 /*---------------------------------------*/
