@@ -21,6 +21,14 @@ header
     left: 500px;
 }
 
+#myh3
+{
+    color:crimson;
+    text-align: center;
+    font-family:gigi;
+    font-size: 70px;
+}
+
 
 ul{
     list-style:none;
