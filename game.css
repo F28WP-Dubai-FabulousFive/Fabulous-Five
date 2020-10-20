@@ -1,4 +1,34 @@
 /*------------------Webpage background----------------------*/
-#myh1{
-    color: black;
+#myh1 {
+    font-size: 120px;
+    font-family: gigi;
+    color: crimson;
+    text-align: center;
+    padding-top: 100px;
+   }
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:48px;
+    line-height:48px;
+    font-size:20px;
+    font-family:chiller;
+    background-color:black;
+    font-weight:bold;
+}
+li{
+    float:left;
+    border-right:2px  solid	crimson;
+    
+}
+a{
+    display:block;
+    padding:0 28px;
+    color:yellow;
+    text-decoration:none;
+}
+a:hover{
+    background-color:crimson;
 }
