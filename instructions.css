@@ -1,0 +1,12 @@
+#myh1{
+    background-color:black;
+    text-decoration: underline;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50;
+}
+
+#header1{
+    color: seagreen;
+    background-color: yellow;
+}
