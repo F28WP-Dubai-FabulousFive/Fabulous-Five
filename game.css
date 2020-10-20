@@ -1,53 +1,87 @@
 
-header{
-    background-image:url("train.jpg");
+body{
+    background-image: url("train.jpg");
+    position:fixed;
+    background-position: 0px -600px;
+    
+}
+
+header
+{
     height:100vh;
     background-size:cover;
-    background-position:center;;
-
+    background-position:center;
 }
 
 #myh1 
 {
     padding-top:120px;
-    font-size: 160px;
-    text-align: center;
-    background-image: url("train.jpg");
-    background-size: cover;
-    
-    
-    
-
+    font-size: 170px;
+    position: relative;
+    left: 500px;
 }
 
+
 ul{
-    margin:0;
-    padding-top: 50px;
     list-style:none;
-    height:48px;
     line-height:48px;
     font-size:50px;
     font-family:chiller;
-    background-image: url("train.jpg");
     font-weight:bolder;
+    background-color:black; 
+
 }
-li{
-    float:left;
-    border-right:2px  solid	crimson;
-    
-}
-a{
-    display:block;
-    padding:0 28px;
-    color: yellow;
-    text-decoration:none;
+ /*gear icon*/
+#myh2 
+{
+    text-align: center;
     transition:0.6s;
-}
-a:hover{
-    background-color:crimson;
+    padding:0 14px;
+
 }
 
-body{
-    background-image: url("train.jpg");
-    background-size: cover;
+#myh2:hover
+{
+ background-color: transparent;
 }
+
+#myh2 {
+    padding: 25px;
+    transition: transform .2s; /* Animation */
+    width: 2px;
+    height: -10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    width:10px;
+    height: 10px;
+  }
+
+
+  
+#myh2:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+/*tabs*/
+li
+{
+    float: left;
+    border:2px  solid  cyan;
+    background-color:black; 
+   
+}
+
+a
+{
+    text-decoration:none;
+    padding:0 38px;
+    color: yellow;
+    transition:0.6s;
+}
+a:hover
+{
+    background-color:blue;
+}
+
+
