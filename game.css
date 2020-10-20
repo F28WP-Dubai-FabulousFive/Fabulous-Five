@@ -1,0 +1,62 @@
+/*------------------Webpage background----------------------*/
+body {
+    background-color: black;
+}
+
+/*------------------Webpage Title---------------------------*/
+#myh1 {
+    font-size: 120px;
+    font-family: gigi;
+    color: crimson;
+    text-align: center;
+    padding-top: 100px;
+   }
+
+/*------------------Webpage Content-----------------------*/
+.menu
+{ 
+     text-align: center;
+}
+
+/*------------------Group members - Profile---------------*/
+.profile 
+{
+    font-size: 70px;
+    font-family: chiller;
+    color: red;
+    border-style:dashed;
+}
+
+
+
+
+.aim
+{
+    font-size: 70px;
+    font-family: chiller;
+    color: red;
+    border-style:dashed;
+}
+
+.tac
+{
+    font-size: 70px;
+    font-family: chiller;
+    color: red;
+    border-style:dashed;
+}
+
+.inst
+{
+    font-size: 70px;
+    font-family: chiller;
+    color: red;
+    border-style:dashed;  
+}
+.score 
+{
+    font-size: 70px;
+    font-family: chiller;
+    color: red;
+    border-style:dashed;
+}
