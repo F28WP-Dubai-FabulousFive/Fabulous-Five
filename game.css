@@ -23,10 +23,12 @@ header
 
 #myh3
 {
-    color:crimson;
-    text-align: center;
-    font-family:gigi;
-    font-size: 70px;
+    color:rgb(220, 20, 20);
+    position: absolute; 
+    top: 352px;
+    right: 270px;
+    font-family:chiller;
+    font-size: 90px;
 }
 
 
