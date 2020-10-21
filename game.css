@@ -16,17 +16,21 @@ header
 #myh1 
 {
     padding-top:120px;
-    font-size: 170px;
+    font-size: 190px;
     position: relative;
-    left: 500px;
+    left: 430px;
+    width: 1000px;
+    height: 10px; 
+    box-shadow: 2px 261px 340px #545ee9b0;
+    
 }
 
 #myh3
 {
     color:rgb(220, 20, 20);
     position: absolute; 
-    top: 352px;
-    right: 270px;
+    top: 332px;
+    right: 260px;
     font-family:chiller;
     font-size: 90px;
 }
@@ -37,6 +41,8 @@ ul{
     line-height:48px;
     font-size:50px;
     font-family:chiller;
+    position: relative;
+    top: 52px;
     font-weight:bolder;
     background-color:black; 
 
@@ -62,7 +68,7 @@ ul{
     height: -10px;
     margin: 0 auto;
     position: absolute;
-    top: 10px;
+    top: 65px;
     right: -100px;
     width:10px;
     height: 10px;
