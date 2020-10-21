@@ -1,18 +1,12 @@
-
-body{
+/*---------------------------------Game Background---------------------------------*/
+body
+{
     background-image: url("train.jpg");
     position:fixed;
-    background-position: 0px -600px;
-    
+    background-position: 0px -600px;  
 }
 
-header
-{
-    height:100vh;
-    background-size:cover;
-    background-position:center;
-}
-
+/*---------------------------Game Title - Trainsylvania----------------------------*/
 #myh1 
 {
     padding-top:120px;
@@ -21,10 +15,30 @@ header
     left: 430px;
     width: 1000px;
     height: 10px; 
-    box-shadow: 2px 261px 340px #545ee9b0;
-    
+    box-shadow: 2px 261px 340px #545ee9b0;  
 }
 
+/*--------------------------------Game Settings - Gear-----------------------------*/
+#myh2 
+{
+    transition:0.6s;
+    padding: 25px;
+    transition: transform .2s; 
+    height: -10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 35px;
+    right: -100px;
+    width:10px;
+}
+
+#myh2:hover
+{
+    background-color: transparent;
+    transform: scale(1.5); 
+}
+
+/*------------------------------Game Tagline - You Hit You Die---------------------*/
 #myh3
 {
     color:rgb(220, 20, 20);
@@ -33,10 +47,31 @@ header
     right: 260px;
     font-family:chiller;
     font-size: 90px;
+    text-shadow: 3px 3px 0px #000000;
 }
 
+/*--------------------------------Game Start - Play button-------------------------*/
+#myh4
+{ 
+    color:rgb(220, 20, 20);
+    position: absolute; 
+    top: 500px;
+    right: 440px;
+    font-size: 90px;  
+}
 
-ul{
+#myh4:hover 
+{
+    transform: scale(1.2); 
+    background-color:transparent; 
+}
+
+/*----------------------------------Game Tabs - Options----------------------------*/
+li
+{
+    float: left;
+    border:2px  solid  cyan;
+    background-color:black; 
     list-style:none;
     line-height:48px;
     font-size:50px;
@@ -44,48 +79,7 @@ ul{
     position: relative;
     top: 52px;
     font-weight:bolder;
-    background-color:black; 
-
-}
- /*gear icon*/
-#myh2 
-{
-    text-align: center;
-    transition:0.6s;
-    padding:0 14px;
-
-}
-
-#myh2:hover
-{
- background-color: transparent;
-}
-
-#myh2 {
-    padding: 25px;
-    transition: transform .2s; /* Animation */
-    width: 2px;
-    height: -10px;
-    margin: 0 auto;
-    position: absolute;
-    top: 65px;
-    right: -100px;
-    width:10px;
-    height: 10px;
-  }
-
-
-  
-#myh2:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-/*tabs*/
-li
-{
-    float: left;
-    border:2px  solid  cyan;
-    background-color:black; 
-   
+    background-color:black;   
 }
 
 a
@@ -93,11 +87,12 @@ a
     text-decoration:none;
     padding:0 38px;
     color: yellow;
-    transition:0.6s;
+    transform: scale(1.5); 
+
 }
+
 a:hover
 {
     background-color:blue;
 }
-
 
