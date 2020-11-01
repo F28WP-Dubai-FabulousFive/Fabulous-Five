@@ -27,8 +27,8 @@ body
     height: -10px;
     margin: 0 auto;
     position: absolute;
-    top: 35px;
-    right: -100px;
+    top: 25px;
+    right: -580px;
     width:10px;
 }
 
@@ -67,32 +67,137 @@ body
 }
 
 /*----------------------------------Game Tabs - Options----------------------------*/
-li
+
+#Btn1
 {
-    float: left;
-    border:2px  solid  cyan;
-    background-color:black; 
-    list-style:none;
-    line-height:48px;
-    font-size:50px;
     font-family:chiller;
-    position: relative;
-    top: 52px;
-    font-weight:bolder;
-    background-color:black;   
-}
-
-a
-{
-    text-decoration:none;
-    padding:0 38px;
+    font-size: 50px;  
+    border:2px  solid  cyan;
     color: yellow;
-    transform: scale(1.5); 
-
+    background-color:black;
+    position: fixed;
+    top: 60px;
+    left:50px;
+    font-weight:bolder;
+    padding:0 38px;
 }
 
-a:hover
+#Btn1:hover
 {
     background-color:blue;
 }
+
+#Btn2
+{
+    font-family:chiller;
+    font-size: 50px;  
+    border:2px  solid  cyan;
+    color: yellow;
+    background-color:black;
+    position: fixed;
+    top: 60px;
+    left:377px;
+    font-weight:bolder; 
+    padding:0 38px;
+}
+
+#Btn2:hover
+{
+    background-color:blue;
+}
+
+#Btn3
+{
+    font-family:chiller;
+    font-size: 50px;  
+    border:2px  solid  cyan;
+    color: yellow;
+    background-color:black;
+    position: fixed;
+    top: 60px;
+    left:643px;
+    font-weight:bolder; 
+    padding:0 38px;
+}
+
+#Btn3:hover
+{
+    background-color:blue;
+}
+
+#Btn4
+{
+    font-family:chiller;
+    font-size: 50px;  
+    border:2px  solid  cyan;
+    color: yellow;
+    background-color:black;
+    position: fixed;
+    top: 60px;
+    left:882px;
+    font-weight:bolder;
+    padding:0 38px; 
+}
+
+#Btn4:hover
+{
+    background-color:blue;
+}
+
+#Btn5
+{
+    font-family:chiller;
+    font-size: 50px;  
+    border:2px  solid  cyan;
+    color: yellow;
+    background-color:black;
+    position: fixed;
+    top: 60px;
+    left:1077px;
+    font-weight:bolder; 
+    padding:0 38px;
+}
+
+#Btn5:hover
+{
+    background-color:blue;
+}
+
+.modal 
+{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: black;
+}
+  
+.modal-content 
+{
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+  
+.close 
+{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,.close:focus 
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 

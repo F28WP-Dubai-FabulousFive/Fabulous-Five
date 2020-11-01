@@ -1,39 +1,26 @@
-#Avatar{
+/*---------------------------------Page Background---------------------------------*/
+body{
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Avatar
+{
     background-color: black;
     color: red;
 }
-#ava1{
+
+#P1
+{
     width: 50%;
     max-width: 100%;
     max-height: 100%;
     display: block;
-    border: 2px solid black;
+    border: 2px solid white;
+    color:white;
 }
-#ava2{
-    width: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    border: 2px solid black;
-}
-#ava3{
-    width: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    border: 2px solid black;
-}
-#ava4{
-    width: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    border: 2px solid black;
-}
-#ava5{
-    width: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    border: 2px solid black;
-}
+
+
