@@ -28,7 +28,7 @@ body
     margin: 0 auto;
     position: absolute;
     top: 25px;
-    right: -580px;
+    right: -790px;
     width:10px;
 }
 
@@ -71,15 +71,15 @@ body
 #Btn1
 {
     font-family:chiller;
-    font-size: 50px;  
+    font-size: 60px;  
     border:2px  solid  cyan;
     color: yellow;
     background-color:black;
     position: fixed;
     top: 60px;
-    left:50px;
+    left:60px;
     font-weight:bolder;
-    padding:0 38px;
+    padding:0 40px;
 }
 
 #Btn1:hover
@@ -90,15 +90,15 @@ body
 #Btn2
 {
     font-family:chiller;
-    font-size: 50px;  
+    font-size: 60px;  
     border:2px  solid  cyan;
     color: yellow;
     background-color:black;
     position: fixed;
     top: 60px;
-    left:377px;
+    left:440px;
     font-weight:bolder; 
-    padding:0 38px;
+    padding:0 40px;
 }
 
 #Btn2:hover
@@ -109,15 +109,15 @@ body
 #Btn3
 {
     font-family:chiller;
-    font-size: 50px;  
+    font-size: 60px;  
     border:2px  solid  cyan;
     color: yellow;
     background-color:black;
     position: fixed;
     top: 60px;
-    left:643px;
+    left:747px;
     font-weight:bolder; 
-    padding:0 38px;
+    padding:0 40px;
 }
 
 #Btn3:hover
@@ -128,15 +128,15 @@ body
 #Btn4
 {
     font-family:chiller;
-    font-size: 50px;  
+    font-size: 60px;  
     border:2px  solid  cyan;
     color: yellow;
     background-color:black;
     position: fixed;
     top: 60px;
-    left:882px;
+    left:1022px;
     font-weight:bolder;
-    padding:0 38px; 
+    padding:0 40px; 
 }
 
 #Btn4:hover
@@ -147,15 +147,15 @@ body
 #Btn5
 {
     font-family:chiller;
-    font-size: 50px;  
+    font-size: 60px;  
     border:2px  solid  cyan;
     color: yellow;
     background-color:black;
     position: fixed;
     top: 60px;
-    left:1077px;
+    left:1244px;
     font-weight:bolder; 
-    padding:0 38px;
+    padding:0 40px;
 }
 
 #Btn5:hover
@@ -173,7 +173,7 @@ body
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: black;
+    background-image: url("train.jpg");
 }
   
 .modal-content 
