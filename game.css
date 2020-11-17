@@ -28,7 +28,7 @@ body
     margin: 0 auto;
     position: absolute;
     top: 25px;
-    right: -790px;
+    right: -150px;
     width:10px;
 }
 
@@ -44,7 +44,7 @@ body
     color:rgb(220, 20, 20);
     position: absolute; 
     top: 332px;
-    right: 260px;
+    left: 630px;
     font-family:chiller;
     font-size: 90px;
     text-shadow: 3px 3px 0px #000000;
@@ -56,7 +56,7 @@ body
     color:rgb(220, 20, 20);
     position: absolute; 
     top: 500px;
-    right: 440px;
+    right: 560px;
     font-size: 90px;  
 }
 
@@ -66,138 +66,144 @@ body
     background-color:transparent; 
 }
 
-/*----------------------------------Game Tabs - Options----------------------------*/
-
-#Btn1
-{
-    font-family:chiller;
-    font-size: 60px;  
-    border:2px  solid  cyan;
-    color: yellow;
-    background-color:black;
-    position: fixed;
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: black;
+    font-family: chiller;
+    float: left;
+    position: relative;
     top: 60px;
-    left:60px;
-    font-weight:bolder;
-    padding:0 40px;
-}
-
-#Btn1:hover
-{
-    background-color:blue;
-}
-
-#Btn2
-{
-    font-family:chiller;
-    font-size: 60px;  
-    border:2px  solid  cyan;
+    left: 50px;
+    border: 2px solid cyan;
     color: yellow;
-    background-color:black;
-    position: fixed;
-    top: 60px;
-    left:440px;
-    font-weight:bolder; 
-    padding:0 40px;
-}
-
-#Btn2:hover
-{
-    background-color:blue;
-}
-
-#Btn3
-{
-    font-family:chiller;
-    font-size: 60px;  
-    border:2px  solid  cyan;
-    color: yellow;
-    background-color:black;
-    position: fixed;
-    top: 60px;
-    left:747px;
-    font-weight:bolder; 
-    padding:0 40px;
-}
-
-#Btn3:hover
-{
-    background-color:blue;
-}
-
-#Btn4
-{
-    font-family:chiller;
-    font-size: 60px;  
-    border:2px  solid  cyan;
-    color: yellow;
-    background-color:black;
-    position: fixed;
-    top: 60px;
-    left:1022px;
-    font-weight:bolder;
-    padding:0 40px; 
-}
-
-#Btn4:hover
-{
-    background-color:blue;
-}
-
-#Btn5
-{
-    font-family:chiller;
-    font-size: 60px;  
-    border:2px  solid  cyan;
-    color: yellow;
-    background-color:black;
-    position: fixed;
-    top: 60px;
-    left:1244px;
-    font-weight:bolder; 
-    padding:0 40px;
-}
-
-#Btn5:hover
-{
-    background-color:blue;
-}
-
-.modal 
-{
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-image: url("train.jpg");
-}
-  
-.modal-content 
-{
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; 
-}
-  
-.close 
-{
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-  
-.close:hover,.close:focus 
-{
-    color: black;
-    text-decoration: none;
     cursor: pointer;
+    padding: 0 30px;
+    transition: 0.3s;
+    font-size: 60px;
+  }
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: blue;
 }
+  
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(4, 0, 255);
+}
+
+#one {
+    border: 8px cyan dashed;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}
+
+#two {
+    border: 8px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 45px;
+    font-family: papyrus;
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+    }
+
+#four {
+    border: 8px cyan dotted;
+        color: rgb(245, 70, 27);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 43px;
+        font-family: papyrus;
+        width: 1440px;
+        height: 600px;
+        position: relative;
+        left: 50px;
+        top: 150px;
+        overflow: auto;
+        background-color: rgb(39, 123, 250,0.15); 
+ 
+    }
+
+    #five {
+        border: 8px cyan dashed;
+        color: rgb(245, 70, 27);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 43px;
+        font-family: papyrus;
+        width: 1440px;
+        height: 600px;
+        position: relative;
+        left: 50px;
+        top: 150px;
+        overflow: auto;
+        background-color: rgb(39, 123, 250,0.15); 
+        }
+
+
+        #myh5
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width:10px;
+}
+       
+#myh6
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 350px;
+    left: 1400px;
+    width:10px;
+}
+
+#myh7
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    width:10px;
+}
+       
+    
+
+
 
 

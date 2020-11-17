@@ -1,183 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <title>Game website</title>
-    <link rel="stylesheet" type="text/css" href="game.css" media="all" />
+  <head>
+    <title>Game Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="game.css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
-    
-    <!-- Background -->
-    <div>  
-      <div id="Title">
-          <h1 id="myh1"><img src="metal font border.png" width="1000" height="200"></h1>
-          <h2 id ="myh2"><img src = "white gear.png" width="70" height="70" top: 100px right: 100px;></h2>
-          <h3 id ="myh3">xx You Hit You Die xx</h3>
-          <h4 id ="myh4"><img src = "PLAY BUTTON.png"></h4>
+
+    <!-------------------------------------------------------MENU TABS------------------------------------------------------------->
+    <div class="tab">
+      <button class="tablinks" onclick="openBtn(event, 'Home')">Home</button>
+      <button class="tablinks" onclick="openBtn(event, 'About the Game')">About the Game</button>
+      <button class="tablinks" onclick="openBtn(event, 'Instructions')">Instructions</button>
+      <button class="tablinks" onclick="openBtn(event, 'High Scores')">High Scores</button>
+      <button class="tablinks" onclick="openBtn(event, 'Credits')">Credits</button>
+      <button class="tablinks" onclick="openBtn(event, 'Terms and Conditions')">Terms and Conditions</button>
     </div>
 
-    <!-- Button 1 -->
-    <button id="Btn1">About the game</button>
-    <div id="myModal" class="modal">
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>
-      Are you ready for a horrifying train experience.Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers.This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right.As the players are moving they  have to collect gold which increases the size of the train compartment.
-    <br>
-    <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS-YOU DIE!!!</strong>
-    </p>
-    </div> </div>
+    <!-------------------------------------------------------HOME BUTTON------------------------------------------------------------->
+
+    <div id="Home" class="tabcontent">
+      <h1 id="myh1"><img src="Trainsylvania-Font.png" width="1000" height="200"></h1>
+      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+      <h3 id ="myh3">xx You Hit You Die xx</h3>
+      <h4 id ="myh4"><img src = "PLAY BUTTON.png"></h4>
+      <h5 id ="myh5"><img src = "Scary-face.gif" width="400" height="400" top: 10px right: 100px;></h5>
+      <h7 id ="myh7"><img src = "Spider.gif" width="400" height="400" top: 10px right: 100px;></h7>
+    </div>
+
+    <!-------------------------------------------------------ABOUT THE GAME BUTTON------------------------------------------------------------->
+
+    <div id="About the Game" class="tabcontent">
+      <div class="myBox" id="one">
+          <p>
+          <strong>ARE YOU READY FOR A HORRIFYING TRAIN EXPERIRENCE  ???</strong> 
+          <br><br>
+          Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers. 
+          This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right. 
+          As the players are moving they  have to collect gold which increases the size of the train compartment.
+          <br><br>
+          <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS - YOU DIE!!!</strong>
+          </p>
+          <h6 id ="myh6"><img src = "Skull.gif" width="200" height="200" top: 10px left: 200px;></h6>
+      </div></div>
+      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+    </div>
+    
+    <!-------------------------------------------------------INSTRUCTIONS BUTTON------------------------------------------------------------->
+
+    <div id="Instructions" class="tabcontent">
+      <div class="myBox" id="two">
+        <p>
+        1. The objective of the game is to collect blocks of coal in order to increase the number of compartments in your train to win. 
+        The player with the highest number of compartments will win.
+        <br><br>
+        2. The train will initially start with only one compartment and the job of the player is to collect as many blocks of coal as they can. 
+        <br><br>
+        3. The train will only move left and right. To move the train right, use your right direction key on your keyboard and to move left, 
+        use the left direction key on your keyboard.
+        <br><br>
+        4. Since this game is multiplayer, you cannot hit your opponent player’s train. If you hit another player’s train, you lose immediately. 
+        <br></p></div></div>
+    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+    </div>
+
+    <!-------------------------------------------------------HIGH SCORES BUTTON------------------------------------------------------------->
+
+    <div id="High Scores" class="tabcontent">
+      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+    </div>
+
+    <!-------------------------------------------------------CREDITS BUTTON-------------------------------------------------------------------->
+
+    <div id="Credits" class="tabcontent">
+      <div class="myBox" id="four">
+        <p>
+        <img src ="Avatar-1.png" width="200" height="200">
+        <p>Geethanjali Dhanish<br><br>
+        <img src ="Avatar-2.png" width="200" height="200">
+        <p>Muhammad Fahim<br><br>
+        <img src ="Avatar-3.png" width="200" height="200">
+        <p>Lakshmi Sunil<br><br>
+        <img src ="Avatar-4.png" width="200" height="200">
+        <p>Khushi Popat<br><br>
+        <img src ="Avatar-5.png" width="200" height="200">
+        <p>Nashwa Abdul Kadhar<br><br>
+        </p></div></div>
+    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+    </div>
+
+    <!-------------------------------------------------------TERMS AND CONDITIONS BUTTON---------------------------------------------------------->
+
+    <div id="Terms and Conditions" class="tabcontent">
+      <div class="myBox" id="five">
+        <p>
+        By using our services, you are agreeing to those, our trainer guidlines and our privacy policy.
+        If you are the parent or legal guardian of a child of age under 13, you are agreeing to these terms on behalf of yourself 
+        and your child who are authorized to use the services pursuant to these terms and in our privacy policies.
+        If u don't agree to these terms,our trainer guidlines, and our privacy policy,do not use the services. 
+        <p>-------- xx --------- xx --------- xx -------- xx --------- xx ---------- xx ----------- xx --------</p>
+        </p></div></div>
+    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+    </div>
+
+    <!-------------------------------------------------------JAVA SCRIPT CODE-------------------------------------------------------------------->
+
     <script>
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("Btn1");
-    var span = document.getElementsByClassName("close")[0];
-    btn.onclick = function() 
-    {
-      modal.style.display = "block";
-    }
-    span.onclick = function() 
-    {
-      modal.style.display = "none";
-    }
-    window.onclick = function(event) 
-    {
-      if (event.target == modal) 
-      {
-        modal.style.display = "none";
+    function openBtn(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
       }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
     }
     </script>
-      
-
-    <!-- Button 2 -->
-    <button id="Btn2">Instructions</button>
-    <div id="myModal" class="modal">
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>
-      Are you ready for a horrifying train experience.Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers.This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right.As the players are moving they  have to collect gold which increases the size of the train compartment.
-    <br>
-    <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS-YOU DIE!!!</strong>
-    </p>
-    </div> </div>  
-    <script>
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("Btn2");
-    var span = document.getElementsByClassName("close")[0];
-    btn.onclick = function() 
-    {
-      modal.style.display = "block";
-    }
-    span.onclick = function() 
-    {
-      modal.style.display = "none";
-    }
-    window.onclick = function(event) 
-    {
-      if (event.target == modal) 
-      {
-        modal.style.display = "none";
-      }
-    }
-    </script>
-
-    <!-- Button 3 -->
-    <button id="Btn3">Highscores</button>
-    <div id="myModal" class="modal">
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>
-      Are you ready for a horrifying train experience.Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers.This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right.As the players are moving they  have to collect gold which increases the size of the train compartment.
-    <br>
-    <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS-YOU DIE!!!</strong>
-    </p>
-    </div> </div>  
-    <script>
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("Btn3");
-    var span = document.getElementsByClassName("close")[0];
-    btn.onclick = function() 
-    {
-      modal.style.display = "block";
-    }
-    span.onclick = function() 
-    {
-      modal.style.display = "none";
-    }
-    window.onclick = function(event) 
-    {
-      if (event.target == modal) 
-      {
-        modal.style.display = "none";
-      }
-    }
-    </script>
-
-    <!-- Button 4 -->
-    <button id="Btn4">Credits</button>
-    <div id="myModal" class="modal">
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>
-      Are you ready for a horrifying train experience.Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers.This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right.As the players are moving they  have to collect gold which increases the size of the train compartment.
-    <br>
-    <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS-YOU DIE!!!</strong>
-    </p>
-    </div> </div>  
-    <script>
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("Btn4");
-    var span = document.getElementsByClassName("close")[0];
-    btn.onclick = function() 
-    {
-      modal.style.display = "block";
-    }
-    span.onclick = function() 
-    {
-      modal.style.display = "none";
-    }
-    window.onclick = function(event) 
-    {
-      if (event.target == modal) 
-      {
-        modal.style.display = "none";
-      }
-    }
-    </script>
-
-   <!-- Button 5 -->
-   <button id="Btn5">Terms and Conditions</button>
-   <div id="myModal" class="modal">
-   <div class="modal-content">
-   <span class="close">&times;</span>
-   <p>
-     Are you ready for a horrifying train experience.Come join us and play Trainslyvania ,a horror theme based game created by five budding programmers.This is a 2D multiplayer game,that allows the players to move the train block only by turning left and right.As the players are moving they  have to collect gold which increases the size of the train compartment.
-   <br>
-   <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS-YOU DIE!!!</strong>
-   </p>
-   </div> </div>  
-   <script>
-   var modal = document.getElementById("myModal");
-   var btn = document.getElementById("Btn5");
-   var span = document.getElementsByClassName("close")[0];
-   btn.onclick = function() 
-   {
-     modal.style.display = "block";
-   }
-   span.onclick = function() 
-   {
-     modal.style.display = "none";
-   }
-   window.onclick = function(event) 
-   {
-     if (event.target == modal) 
-     {
-       modal.style.display = "none";
-     }
-   }
-   </script>
-      
 
   </body>
 </html>
-
