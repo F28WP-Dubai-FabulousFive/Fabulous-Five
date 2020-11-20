@@ -17,17 +17,43 @@
       <button class="tablinks" onclick="openBtn(event, 'High Scores')">High Scores</button>
       <button class="tablinks" onclick="openBtn(event, 'Credits')">Credits</button>
       <button class="tablinks" onclick="openBtn(event, 'Terms and Conditions')">Terms and Conditions</button>
+      <button class="" onclick="openBtn(event, 'Gear')"><h2 id ="myh2"><img src = "Gear.png" width="70" height="70";></h2></button>
     </div>
 
     <!-------------------------------------------------------HOME BUTTON------------------------------------------------------------->
 
     <div id="Home" class="tabcontent">
       <h1 id="myh1"><img src="Trainsylvania-Font.png" width="1000" height="200"></h1>
-      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
       <h3 id ="myh3">xx You Hit You Die xx</h3>
-      <h4 id ="myh4"><img src = "PLAY BUTTON.png"></h4>
-      <h5 id ="myh5"><img src = "Scary-face.gif" width="400" height="400" top: 10px right: 100px;></h5>
-      <h7 id ="myh7"><img src = "Spider.gif" width="400" height="400" top: 10px right: 100px;></h7>
+
+      <h4 id ="myh4"><img src="PLAY BUTTON.png" onclick="document.getElementById('id01').style.display='block'" alt="play"></h4>
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close ">&times;</span>
+        <div class="one1">
+          <div class="form-box">
+            <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">LOGIN</button>
+              <button type="button" class="toggle-btn" onclick="register()">REGISTER</button>
+            </div>
+            <form id="login1" class="input-group">
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="password" class="input-field" placeholder="Password" required>
+              <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+            <form id="register" class="input-group">
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="email" class="input-field" placeholder="Email Id" required>
+              <input type="password" class="input-field" placeholder="Password" required>
+              <button type="submit" class="register-btn">REGISTER</button>
+            </form>
+          </div></div>
+      </div>
+
+      <h5 id ="myh5"><img src = "Bat.gif" width="400" height="400" ></h5>
+      <h6 id ="myh6"><img src = "Bat.gif" width="400" height="400" ></h6>
+      <h7 id ="myh7"><img src = "Skeleton1.gif" width="400" height="500"></h7>
+      <h8 id ="myh8"><img src = "Skeleton2.gif" width="400" height="500"></h8>
     </div>
 
     <!-------------------------------------------------------ABOUT THE GAME BUTTON------------------------------------------------------------->
@@ -43,9 +69,8 @@
           <br><br>
           <strong>BEWARE!!!! DON'T COLLIDE WITH YOUR OPONENETS TRAIN OTHERWISE YOU KNOW WHAT HAPPENS - YOU DIE!!!</strong>
           </p>
-          <h6 id ="myh6"><img src = "Skull.gif" width="200" height="200" top: 10px left: 200px;></h6>
+          <h9 id ="myh9"><img src = "Skull.gif" width="200" height="200" top: 10px left: 200px;></h9>
       </div></div>
-      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
     </div>
     
     <!-------------------------------------------------------INSTRUCTIONS BUTTON------------------------------------------------------------->
@@ -53,23 +78,24 @@
     <div id="Instructions" class="tabcontent">
       <div class="myBox" id="two">
         <p>
-        1. The objective of the game is to collect blocks of coal in order to increase the number of compartments in your train to win. 
-        The player with the highest number of compartments will win.
+        1. Collect blocks of coal in order to increase the number of compartments in your train to win. 
         <br><br>
-        2. The train will initially start with only one compartment and the job of the player is to collect as many blocks of coal as they can. 
+        2. The player with the highest number of compartments will win.
         <br><br>
-        3. The train will only move left and right. To move the train right, use your right direction key on your keyboard and to move left, 
-        use the left direction key on your keyboard.
+        3. The train will only move left and right. To move the train right, use your right arrow key on your keyboard and to move left, 
+        use the left arrow key on your keyboard.
         <br><br>
-        4. Since this game is multiplayer, you cannot hit your opponent player’s train. If you hit another player’s train, you lose immediately. 
-        <br></p></div></div>
-    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+        4. This game is multiplayer, if you hit another player’s train, you lose immediately. 
+        <br>
+        <h10 id ="myh10"><img src = "Arrow.gif" width="250" height="100"></h10>
+        <h11 id ="myh11"><img src = "Coal.gif" width="150" height="100"></h11>
+        </p></div></div>
+        <h12 id ="myh12"><img src = "RIP.png" width="150" height="100"></h12>
     </div>
 
     <!-------------------------------------------------------HIGH SCORES BUTTON------------------------------------------------------------->
 
     <div id="High Scores" class="tabcontent">
-      <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
     </div>
 
     <!-------------------------------------------------------CREDITS BUTTON-------------------------------------------------------------------->
@@ -77,35 +103,42 @@
     <div id="Credits" class="tabcontent">
       <div class="myBox" id="four">
         <p>
-        <img src ="Avatar-1.png" width="200" height="200">
-        <p>Geethanjali Dhanish<br><br>
-        <img src ="Avatar-2.png" width="200" height="200">
-        <p>Muhammad Fahim<br><br>
-        <img src ="Avatar-3.png" width="200" height="200">
-        <p>Lakshmi Sunil<br><br>
-        <img src ="Avatar-4.png" width="200" height="200">
-        <p>Khushi Popat<br><br>
-        <img src ="Avatar-5.png" width="200" height="200">
-        <p>Nashwa Abdul Kadhar<br><br>
+        <h11 id ="a1"><img src ="Avatar-1.png" width="200" height="200"></h11>
+        <h12 id ="a2">Geethanjali Dhanish</h12>
+        <h13 id ="a3"><img src ="Avatar-2.png" width="200" height="200"></h13>
+        <h14 id ="a4">Muhammad Fahim</h14>
+        <h15 id ="a5"><img src ="Avatar-3.png" width="200" height="200"></h15>
+        <h16 id ="a6">Lakshmi Sunil</h16>
+        <h17 id ="a7"><img src ="Avatar-4.png" width="200" height="200"></h17>
+        <h18 id ="a8">Khushi Popat</h18>
+        <h19 id ="a9"><img src ="Avatar-5.png" width="200" height="200"></h19>
+        <h20 id ="a10">Nashwa Abdul Kadhar</h20>
+        <h21 id ="a11"><img src ="Hand.png" width="230" height="300"></h21>
+        <h22 id ="a12"><img src ="Hand.png" width="230" height="300"></h22>
+        <h23 id ="a13"><img src ="Hand.png" width="230" height="300"></h23>
+        <h24 id ="a14"><img src ="Hand.png" width="230" height="300"></h24>
+        <h25 id ="a15"><img src ="Hand.png" width="230" height="300"></h25>
         </p></div></div>
-    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
     </div>
 
     <!-------------------------------------------------------TERMS AND CONDITIONS BUTTON---------------------------------------------------------->
 
     <div id="Terms and Conditions" class="tabcontent">
       <div class="myBox" id="five">
-        <p>
-        By using our services, you are agreeing to those, our trainer guidlines and our privacy policy.
-        If you are the parent or legal guardian of a child of age under 13, you are agreeing to these terms on behalf of yourself 
+        <p>-------- xx --------- xx --------- xx -------- xx --------- xx ---------- xx ----------- xx --------- xx -------- xx ----------</p>
+        => By using our services, you are agreeing to those, our trainer guidlines and our privacy policy.
+        <br><br>
+        => If you are the parent or legal guardian of a child of age under 13, you are agreeing to these terms on behalf of yourself 
         and your child who are authorized to use the services pursuant to these terms and in our privacy policies.
-        If u don't agree to these terms,our trainer guidlines, and our privacy policy,do not use the services. 
-        <p>-------- xx --------- xx --------- xx -------- xx --------- xx ---------- xx ----------- xx --------</p>
-        </p></div></div>
-    <h2 id ="myh2"><img src = "Gear.png" width="70" height="70" top: 100px right: 100px;></h2>
+        <br><br>
+        => If u don't agree to these terms,our trainer guidlines, and our privacy policy,do not use the services.
+        <p>-------- xx --------- xx --------- xx -------- xx --------- xx ---------- xx ----------- xx --------- xx -------- xx ----------</p> 
+        </p></div>
+        <h12 id ="myh12"><img src = "pg13.png" width="200" height="100" top: 100px right: 10px;></h12>
+      </div>
     </div>
 
-    <!-------------------------------------------------------JAVA SCRIPT CODE-------------------------------------------------------------------->
+    <!-------------------------------------------------------JAVA SCRIPT CODE - MENU TABS-------------------------------------------------------------------->
 
     <script>
     function openBtn(evt, cityName) {
@@ -122,6 +155,25 @@
       evt.currentTarget.className += " active";
     }
     </script>
+
+   <!-------------------------------------------------------JAVA SCRIPT CODE - PLAY BUTTON-------------------------------------------------------------------->
+
+    <script>
+    var x= document.getElementById("login1");
+    var y= document.getElementById("register");
+    var z= document.getElementById("btn");
+    function register(){
+      x.style.left = "-450px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+    }
+    function login(){
+      x.style.left = "50px";
+      y.style.left = "400px";
+      z.style.left = "0";
+    }
+    </script>
+
 
   </body>
 </html>
