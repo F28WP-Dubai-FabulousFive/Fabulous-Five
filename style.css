@@ -1,0 +1,31 @@
+
+/* Outer background*/
+body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: black;
+      }
+  /* background of the game board -plan to add pics */
+      #game-board {
+       background-color: grey;
+        width: 100vmin;
+        height: 100vmin;
+        display: grid;
+        grid-template-rows: repeat(21, 1fr); /* 21 equal rows and 21 equal columns  */
+        grid-template-columns: repeat(21, 1fr);
+      }
+     /* add train pic */
+      .train {  
+       background-color:red;
+       border: .25vmin solid black;
+       
+      }
+  /*add coal pic */
+      .coal {
+        background-color: hsl(50, 55%, 4%);
+        border: .25vmin solid black;
+      }
