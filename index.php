@@ -18,10 +18,10 @@
       <button style="width:14%;height:50px" class="tablinks" onclick="openBtn(event, 'High Scores')">High Scores</button>
       <button style="width:12%;height:50px" class="tablinks" onclick="openBtn(event, 'Credits')">Credits</button>
       <button style="width:20%;height:50px" class="tablinks" onclick="openBtn(event, 'Terms and Conditions')">Terms and Conditions</button>
-      <button style="border: none;background:none" class="tablinks" onclick="openBtn(event, 'Gear')"><img src = "Gear.png" width="70" height="43px"></button>
+     
     </div>
 	<div style="height:100px;color:none">
-	g
+	
 	</div>
     <!-------------------------------------------------------HOME BUTTON------------------------------------------------------------->
 
