@@ -1,0 +1,614 @@
+/*---------------------------------GAME BACKGROUND---------------------------------*/
+@font-face {
+  font-family: myFont;
+  src: url('fonts/CHILLER.ttf')  format('truetype');
+ 
+}
+body
+{
+    background-image: url("train.jpg");
+    //position:fixed;
+    background-position: 0px -600px;  
+}
+
+/*----------------------------------------MENU TABS--------------------------------------*/
+.tab button 
+{
+    background-color: black;
+    font-family: myFont;
+    float: left;
+    position: relative;
+   // top: 60px;
+    left: 50px;
+    border: 2px solid red;
+    color: cyan;
+    cursor: pointer;
+    padding: 0 30px;
+    transition: 0.3s;
+	 font-size: 30px;
+    
+}
+.tab button:hover 
+{
+    background-color: blue;
+}
+.tab button.active 
+{
+    background-color: rgba(0, 0, 255, 0.459)
+}
+
+/*---------------------------------------ABOUT THE GAME BUTTON---------------------------------*/
+/*.mygrid
+{
+   border: 5px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 80%;
+    height: 700px;
+    //position: relative;
+    left: 20px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}*/
+#zero
+{
+    //border: 4px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 50%;
+    height: 200px;
+    //position: relative;
+    left: 50px;
+    top: 500px;
+    //overflow: auto;
+   // background-color: rgb(39, 123, 250,0.15); 
+}
+#one 
+{
+    border: 7px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 95%;
+    height: 600px;
+    //position: relative;
+    left: 20px;
+    top: 150px;
+    //overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}
+
+/*---------------------------------------INSTRUCTIONS BUTTON---------------------------------*/
+#two 
+{
+    border: 5px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 94%;
+    height: 700px;
+    //position: relative;
+    left: 200px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}
+
+/*---------------------------------------CREDITS BUTTON---------------------------------*/
+#four 
+{
+    border: 5px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+   width: 80%;
+    height: 700px;
+    //position: relative;
+    left: 200px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}
+
+/*---------------------------------------TERMS AND CONDITIONS BUTTON---------------------------------*/
+#five 
+{
+    border: 5px cyan dotted;
+    color: rgb(245, 70, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: papyrus;
+    width: 95%;
+    height: 700px;
+    //position: relative;
+    left: 200px;
+    top: 150px;
+    overflow: auto;
+    background-color: rgb(39, 123, 250,0.15); 
+}
+
+/*---------------------------GAME TITLE - TRAINSYLVANIA----------------------------*/
+#myh1 
+{
+    padding-top:120px;
+    font-size: 190px;
+    position: relative;
+    left: 200px;
+    width: 1000px;
+    height: 10px; 
+    box-shadow: 2px 261px 340px #545ee9b0;  
+}
+
+/*--------------------------------GAME SETTINGS - GEAR-----------------------------*/
+#myh2 
+{
+    transition:0.6s;
+    padding: 25px;
+    transition: transform .2s; 
+    height: -10px;
+    margin: 0 auto;
+    position: absolute;
+    top: -25px;
+    right: -30px;
+    width:10px;
+}
+#myh2:hover
+{
+    background-color: transparent;
+    transform: scale(1.5); 
+}
+
+/*------------------------------GAME TAGLINE - YOU HIT YOU DIE---------------------*/
+#myh3
+{
+    color:rgb(220, 20, 20);
+    position: absolute; 
+    top: 332px;
+    left: 300px;
+    font-family:chiller;
+    font-size: 90px;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+/*--------------------------------GAME START - PLAY BUTTON-------------------------*/
+#myh4
+{ 
+    color:rgb(220, 20, 20);
+    position: absolute; 
+    top: 400px;
+    right: 600px;
+    font-size: 90px;  
+}
+#myh4:hover 
+{
+    transform: scale(1.2); 
+    background-color:transparent; 
+}
+
+/*---------------------------------------BAT PIC --------------------------------*/
+#myh5
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width:10px;
+}
+#myh6
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    right: 280px;
+    width:10px;
+}
+
+/*------------------------------------------SKELETON1 PIC  ------------------------------*/
+#myh7
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 430px;
+    left:430px;
+    width:10px;
+}
+
+/*------------------------------------------SKELETON1 PIC  ------------------------------*/
+#myh8
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 430px;
+    right:650px;
+    width:10px;
+}
+
+/*---------------------------------------------SKULL PIC --------------------------------*/
+#myh9
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 350px;
+    left: 1400px;
+    width:10px;
+}
+
+/*------------------------------------------ARROW-KEY PIC ----------------------------*/
+#myh10
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    width:10px;
+}
+
+#myh11
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    width:10px;
+}
+
+
+/*---------------------------------------------AVATAR-1  PIC --------------------------------*/
+#a1
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    width:10px;
+}
+
+/*---------------------------------------------NAME-1 (GEETHANJALI) --------------------------------*/
+#a2
+{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+}
+  
+/*---------------------------------------------AVATAR-2  PIC --------------------------------*/
+#a3
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    width:10px;
+}
+
+/*---------------------------------------------NAME-2 (FAHIM) --------------------------------*/
+#a4
+{
+    position: absolute;
+    top: 240px;
+    left: 560px;
+}
+
+/*---------------------------------------------AVATAR-3  PIC --------------------------------*/
+#a5
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 1060px;
+    width:10px;
+}
+
+/*---------------------------------------------NAME-3 (LAKSHMI) --------------------------------*/
+#a6
+{
+    position: absolute;
+    top: 240px;
+    left: 1050px;
+}
+
+/*---------------------------------------------AVATAR-4  PIC --------------------------------*/
+#a7
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 310px;
+    left: 310px;
+    width:10px;
+}
+
+/*---------------------------------------------NAME-4 (KHUSHI) --------------------------------*/
+#a8
+{
+    position: absolute;
+    top: 540px;
+    left: 310px;
+}
+
+/*---------------------------------------------AVATAR-5  PIC --------------------------------*/
+#a9
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 310px;
+    left: 830px;
+    width:10px;
+}
+
+/*---------------------------------------------NAME-5 (NASHWA) --------------------------------*/
+
+#a10
+{
+    position: absolute;
+    top: 540px;
+    left: 760px;
+}
+
+/*---------------------------------------------BLOOD HAND PIC --------------------------------*/
+#a11
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    width:10px;
+}
+#a12
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    width:10px;
+}
+#a13
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    width:10px;
+}
+#a14
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 290px;
+    left: 540px;
+    width:10px;
+}
+#a15
+{
+    transition:0.6s;
+    padding: 25px;
+    height: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 290px;
+    left: 1100px;
+    width:10px;
+}
+  
+/*---------------------------------------------LOGIN CLOSE BUTTON --------------------------------*/
+.close 
+{
+    position: absolute;
+    right: 710px;
+    top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.close:hover,.close:focus 
+{
+    color: yellow;
+    cursor: pointer;
+}
+
+/*---------------------------------------------SUBMIT BUTTON --------------------------------------*/
+.login-btn
+{
+    width: 100%;
+    padding: 10px 100px;
+    cursor: pointer;
+    display: block;
+    margin-top: 30%;
+    background: red;
+    color: yellow;
+    font-family: Segoe Print;
+}
+.register-btn
+{
+    width: 100%;
+    padding: 10px 100px;
+    cursor: pointer;
+    display: block;
+    margin-top: 30%;
+    background: red;
+    color: yellow;
+    font-family: Segoe Print;
+}
+.login-btn:hover, .register-btn:hover
+{
+    background-color: red;
+}
+
+/*---------------------------------------------LOGIN FORM --------------------------------------*/
+.form-box
+{
+    width: 380px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background-image: url("Spider-web.jpg");
+    padding: 5px;
+    overflow: hidden;
+}
+
+/*---------------------------------------------LOGIN FORM - BACKGROUND --------------------------------------*/
+.modal 
+{
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(53, 45, 100, 0.308);
+    padding-top: 50px;
+}
+    .button-box{
+      width: 220px;
+      margin: 35px auto;
+      position: relative;
+      box-shadow: 0 0 1px 2px yellow;
+    }
+    .toggle-btn{
+      padding: 10px 30px;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+      outline: none;
+      position: relative;
+     color:yellow;
+     font-family: Segoe Print;
+    font-size: 11px; 
+    }
+    ::-webkit-input-placeholder{
+      color: yellow;
+      font-family: Segoe Print;
+      font-size: 20px; 
+    }
+    #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: red;
+    transition: .5s;
+    
+    }
+    .input-group{
+      top: 180px;
+      position: absolute;
+      width: 280px;
+      transition: .5s;
+    }
+    .input-field{
+      width: 100%;
+      padding: 10px 0;
+      margin: 5px 0;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 1px solid yellow;
+      outline: none;
+      color:yellow;
+      background: transparent;
+      font-family: Segoe Print;
+      font-size: 20px;
+    }
+    
+    .check-box{
+    margin: 30px 10px 30px 0;
+    }
+    .span{
+        color: red;
+        font-size: 12px;
+        bottom: 68px;
+        position: absolute; 
+    }
+    #login1{
+    left:50px;
+    
+    }
+    #register{
+      left: 450px;
+    }
+    
+
+    
+    
+    
+
+
+
+    
+    
