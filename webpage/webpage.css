@@ -123,25 +123,6 @@ body
     box-shadow: 2px 261px 340px #545ee9b0;  
 }
 
-/*--------------------------------GAME SETTINGS - GEAR-----------------------------*/
-#myh2 
-{
-    transition:0.6s;
-    padding: 25px;
-    transition: transform .2s; 
-    height: -10px;
-    margin: 0 auto;
-    position: absolute;
-    top: -25px;
-    right: -30px;
-    width:10px;
-}
-#myh2:hover
-{
-    background-color: transparent;
-    transform: scale(1.5); 
-}
-
 /*------------------------------GAME TAGLINE - YOU HIT YOU DIE---------------------*/
 #myh3
 {
@@ -160,7 +141,7 @@ body
     color:rgb(220, 20, 20);
     position: absolute; 
     top: 500px;
-    right: 700px;
+    right: 650px;
     font-size: 90px;  
 }
 #myh4:hover 
@@ -256,7 +237,6 @@ body
     right: 250px;
     width:10px;
 }
-
 
 /*---------------------------------------------AVATAR-1  PIC --------------------------------*/
 #a1
@@ -491,29 +471,33 @@ body
     background: rgba(53, 45, 100, 0.308);
     padding-top: 50px;
 }
-    .button-box{
-      width: 220px;
-      margin: 35px auto;
-      position: relative;
-      box-shadow: 0 0 1px 2px yellow;
-    }
-    .toggle-btn{
-      padding: 10px 30px;
-      cursor: pointer;
-      background: transparent;
-      border: 0;
-      outline: none;
-      position: relative;
-     color:yellow;
-     font-family: Segoe Print;
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 1px 2px yellow;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color:yellow;
+    font-family: Segoe Print;
     font-size: 11px; 
-    }
-    ::-webkit-input-placeholder{
-      color: yellow;
-      font-family: Segoe Print;
-      font-size: 20px; 
-    }
-    #btn{
+}
+::-webkit-input-placeholder
+{
+    color: yellow;
+    font-family: Segoe Print;
+    font-size: 20px; 
+}
+#btn
+{
     top: 0;
     left: 0;
     position: absolute;
@@ -521,45 +505,48 @@ body
     height: 100%;
     background: red;
     transition: .5s;
-    
-    }
-    .input-group{
-      top: 180px;
-      position: absolute;
-      width: 280px;
-      transition: .5s;
-    }
-    .input-field{
-      width: 100%;
-      padding: 10px 0;
-      margin: 5px 0;
-      border-left: 0;
-      border-top: 0;
-      border-right: 0;
-      border-bottom: 1px solid yellow;
-      outline: none;
-      color:yellow;
-      background: transparent;
-      font-family: Segoe Print;
-      font-size: 20px;
-    }
-    
-    .check-box{
+}
+.input-group
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid yellow;
+    outline: none;
+    color:yellow;
+    background: transparent;
+    font-family: Segoe Print;
+    font-size: 20px;
+} 
+.check-box
+{
     margin: 30px 10px 30px 0;
-    }
-    .span{
-        color: red;
-        font-size: 12px;
-        bottom: 68px;
-        position: absolute; 
-    }
-    #login1{
+}
+.span
+{
+    color: red;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute; 
+}
+#login1
+{
     left:50px;
-    
-    }
-    #register{
-      left: 450px;
-    }
+}
+#register
+{
+    left: 450px;
+}
     
 
     
