@@ -8,3 +8,10 @@ The game is a mutliplayer 2D game that involves controlling a single train compa
 - Horror background
 - Spiders
 - Instructions of game 
+
+PLEASE FOLLOW THE BELOW PROCEDURE TO ACESS GAME FILE.
+
+install wamp server -----> Download our the file from github as a zipfile -----> Extraction of the file and place it in the www directory of the wamp server  ------->  open the file via localhost  ------> You will be able to see three folders Readmefile,the webapge and the game -------> To play the game you need to open the game folder ------>  Press the PLAY Button ------> Register for new user --------> After registration please login to the game ------->Then you will be able to play the game
+
+
+
