@@ -12,4 +12,6 @@ Open the file via localhost ------> You will be able to see three folders Readme
 
 To play the game we need to click on this link-->ress the PLAY Button ----> Register for new user --------> After registration please login to the game -------> Enjoy the Game !
 
-http://steeldeed.com/Fabulous-Five/
+GAME TRAILER - - https://youtu.be/D8FfDQmxJ90 
+
+LIVE GAME URL - http://steeldeed.com/Fabulous-Five/
