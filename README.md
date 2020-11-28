@@ -10,7 +10,7 @@ Install WAMP SERVER -----> Download the file from GitHub as a zipfile -----> Ext
 Open the file via localhost ------> You will be able to see three folders Readmefile, Webpage and Game -------> To play the game you need to open the game folder ------> Press the PLAY Button ------> Register for new user --------> After registration please login to the game -------> Enjoy the Game !
 
 
-To play the game we need to click on this link-->ress the PLAY Button ----> Register for new user --------> After registration please login to the game -------> Enjoy the Game !
+To play the game we need to click on this link-->ress the PLAY Button ----> Register for new user ----->password should be in numbers only!!!!!--------> After registration please login to the game -------> Enjoy the Game !
 
 GAME TRAILER - - https://youtu.be/D8FfDQmxJ90 
 
